@@ -22,6 +22,8 @@ class MovieDetailVC: UIViewController, UICollectionViewDelegate, UICollectionVie
       func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
             return images.count
         }
+    
+    
         
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "postCell", for: indexPath) as! PostCell
